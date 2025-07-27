@@ -55,23 +55,6 @@ A responsive and interactive web app that measures your typing speed (WPM), accu
 
 ---
 
-## 📈 Future Improvements (Ideas)
-
-- Add dark mode toggle  
-- Global leaderboard (Firebase or Supabase)  
-- Custom sentence input  
-- Multilingual support  
-- Mobile vibration feedback
-
----
-
 ## 🧪 Author & License
 
-Built with ❤️ by [Your Name]  
-Licensed under [MIT](LICENSE)
-
----
-
-## 💡 Tip
-
-Clone the project, improve your typing, and maybe even customize the sentence set to include your own quotes, jokes, or code snippets!
+Built with ❤️ by Ronen Azam
