@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1><span>⌨️</span> Typing Speed Test</h1>
+        <div class="test-container">
+            <p class="test-sentence" oncontextmenu="return false">Sentence will display here..</p>
+            <div class="input-container">
+                <textarea class="user-input" placeholder="Start typing here..." rows="5" disabled></textarea>
+                <span class="count-down">5</span>
+            </div>
+
+            <div class="results">
+                <p class="done">Test Completed ✅</p>
+                <span class="time"></span>
+                <span class="wpm"></span>
+                <span class="accuracy"></span>
+            </div>
+
+            <button class="restart">Play again</button>
+        </div>
+        <div class="start-test">
+            <p>Test how fast and accurately you type in real-time. This test measures your typing speed in Words Per
+                Minute (WPM) and
+                your accuracy, highlighting mistakes as you go. Great for improving your typing skills or just
+                challenging yourself.</p>
+            <button>Start test</button>
+        </div>
+    </main>
+    <script src="general.js"></script>
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>
