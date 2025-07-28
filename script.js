@@ -176,7 +176,7 @@ function displayColorsOnCharacters() {
         if (input.length <= i) {
             span.style.color = 'var(--primary-color)';
         }
-        else if (span.textContent === input[i]) { //right character
+        else if (span.textContent === normalize(input[i])) { //right character
             span.style.color = 'green';
         } else {
             span.style.color = 'red';
@@ -188,7 +188,7 @@ function displayColorsOnCharacters() {
  * @returns true if the test is done, false if its not
  */
 function testIsDone() {
-    return currentSentence == userInput.value;
+    return currentSentence == normalize(userInput.value);
 }
 
 /**
