@@ -34,11 +34,11 @@ main {
     transition: transform 0.5s;
     color: var(--primary-color);
     box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3);
-    transform: translateY(-10px);
+    transform: translateY(-3px);
 }
 
 main:hover {
-    transform: translateY(-15px);
+    transform: translateY(-5px);
 }
 
 main div.input-container {
